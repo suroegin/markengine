@@ -25,4 +25,4 @@ python build.py
 ## My goals
 
 * After pushing generate HTML files and test them in GitHub Actions.
-* If tests are okay, deliver HTML files to server and start a Docker container.
+* Deliver HTML files to server and start a Docker container if all tests are okay.
