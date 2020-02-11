@@ -1,6 +1,11 @@
 ---
-title: About me
-Another-Key: another value.
+title:        About me
+description:  Page with information about me.
+keywords:     suroegin, about, about page, information, history
+categories:   one, two
+tags:
+layout:       page
+template:     base
 ---
 
 # About page

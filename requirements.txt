@@ -1,4 +1,11 @@
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.8
 Jinja2==2.11.1
+lxml==4.5.0
 markdown2==2.3.8
 MarkupSafe==1.1.1
 Pygments==2.5.2
+requests==2.22.0
+sitemap-generator==0.5.2
+urllib3==1.25.8
