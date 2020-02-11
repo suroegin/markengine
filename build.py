@@ -55,20 +55,21 @@ def convert(file):
         _file.write(html)
 
 
-# Convert .MD files to .HTML
-[
-    convert(x)
-    for x
-    in SRC_DIR.iterdir()
-    if x.match("*.md")
-]
+if __name__ == "__main__":
+    # Convert .MD files to .HTML
+    [
+        convert(x)
+        for x
+        in SRC_DIR.iterdir()
+        if x.match("*.md")
+    ]
 
-[
-    convert(f)
-    for d
-    in SRC_DIR.iterdir()
-    if d.is_dir() and "." not in d.name
-    for f
-    in d.iterdir()
-    if f.match("*.md")
-]
+    [
+        convert(f)
+        for d
+        in SRC_DIR.iterdir()
+        if d.is_dir() and "." not in d.name
+        for f
+        in d.iterdir()
+        if f.match("*.md")
+    ]
