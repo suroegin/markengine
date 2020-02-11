@@ -5,7 +5,7 @@ on:
     branches: [develop]
 
 jobs:
-  build-py.3.7.6:
+  build-py_3_7_6:
 
     runs-on: ubuntu-latest
 
@@ -30,7 +30,7 @@ jobs:
       run: |
         python -m unittest tests/*.py
 
-  build-py.3.8:
+  build-py_3_8:
 
     runs-on: ubuntu-latest
 
