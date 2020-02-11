@@ -1,8 +1,11 @@
 ---
-title: Home
-Another-Key: another value.
-Key-with-long-value: lo-o-o-o-o-o-o-o-o-o-o-ong value.
-A-further-key: some other value.
+title:        Index page
+description:  Suroegin's website.
+keywords:     suroegin, index, home, homepage
+categories:   one, two
+tags:
+layout:       page
+template:     base
 ---
 
 # Index page
@@ -11,7 +14,7 @@ A-further-key: some other value.
 
 Проверка русского языка...
 
-## Let's test marjdown2 abilities
+## Let's test markdown2 abilities
 
 ### Wiki-tables
 
