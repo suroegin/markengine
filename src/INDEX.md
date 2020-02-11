@@ -1,5 +1,5 @@
 ---
-foo: bar.
+title: Home
 Another-Key: another value.
 Key-with-long-value: lo-o-o-o-o-o-o-o-o-o-o-ong value.
 A-further-key: some other value.
