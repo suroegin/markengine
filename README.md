@@ -8,9 +8,19 @@ Very simple website engine with pages as markdown files. Let's look at it!
 * Pygments ([CSS colors](https://github.com/richleland/pygments-css))
 * Jinja 2
 
-## How to generate HTML files in CLI
+## How to generate HTML files
 
-`markdown2 --extras break-on-newline,tables,header-ids, src/INDEX.md > build/INDEX.html`code-friendly,fenced-code-blocks,footnotes,smarty-pants,metadata,tag-friendly,wiki-tables,cuddled-lists
+In CLI (generate one selected .md file):
+
+```bash
+markdown2 --extras break-on-newline,tables,header-ids,code-friendly,fenced-code-blocks,footnotes,smarty-pants,metadata,tag-friendly,wiki-tables,cuddled-lists src/INDEX.md > build/INDEX.html
+```
+
+Python app (generate all .md files in all dirs):
+
+```bash
+python build.py
+```
 
 ## My goals
 
